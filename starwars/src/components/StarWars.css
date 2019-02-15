@@ -1,0 +1,15 @@
+.starWarsList {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.starwarsPerson {
+  background-color: #443e3e;
+  height: 150px;
+  margin-bottom: 15px;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  box-shadow: 5px 10px 8px #888888;
+}
