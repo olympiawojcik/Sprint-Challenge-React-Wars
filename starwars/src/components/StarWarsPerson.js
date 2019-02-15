@@ -5,7 +5,8 @@ const StarWarsPerson = props => {
   console.log("these are props", props);
   return (
     <div className="starwarsPerson">
-      <p>{props.item.name}</p>
+      <p>Name: {props.item.name}</p>
+      <p>Birth Year: {props.item.birth_year}</p>
     </div>
   );
 };
