@@ -5,7 +5,7 @@ const StarWarsPerson = props => {
   console.log("these are props", props);
   return (
     <div className="starwarsPerson">
-      <p>Testing</p>
+      <p>{props.item.name}</p>
     </div>
   );
 };
